@@ -828,11 +828,6 @@ body {
         </div>
       </div>
     </div>
-    <div style="font-size:13px; color:var(--blue); font-style:italic; line-height:2;">
-        Flugticket NH224 hochladen<br>
-        Zugtickets hochladen
-      </div>
-    </div>
   </div>
 </div>
 
@@ -1130,22 +1125,21 @@ const days = [
     timeline: [
       { time: '09:00', name: 'Abfahrt nach Harajuku', transit: 'JR Yamanote Line · 5 Min. · ¥160', map: 'https://www.google.com/maps/dir/Shinjuku+Station/Harajuku+Station,+Tokyo/@35.682,139.7,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!1m5!1m1!1s0x60188ca46f60e2c5:0x48f7f67aeeed7e0!2m2!1d139.7027!2d35.6699!3e3' },
       { time: '09:15', name: '⛩️ Meiji-Schrein', transit: null },
-      { time: '10:45', name: '🌳 Shinjuku Gyoen', transit: 'JR/U-Bahn ca. 10 Min. oder 20 Min. zu Fuß', map: 'https://www.google.com/maps/dir/Meiji+Shrine,+Tokyo/Shinjuku+Gyoen+National+Garden,+Tokyo/@35.681,139.703,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cb37f45f5c5:0x3bce00ae7f6c0a3a!2m2!1d139.6993!2d35.6764!1m5!1m1!1s0x60188d5ce7e1a5c7:0x61f3fb3f27dbf2ed!2m2!1d139.71!2d35.685!3e3' },
+      { time: '10:45', name: '🌳 (Optional) Shinjuku Gyoen', transit: 'JR/U-Bahn ca. 10 Min. oder 20 Min. zu Fuß', map: 'https://www.google.com/maps/dir/Meiji+Shrine,+Tokyo/Shinjuku+Gyoen+National+Garden,+Tokyo/@35.681,139.703,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cb37f45f5c5:0x3bce00ae7f6c0a3a!2m2!1d139.6993!2d35.6764!1m5!1m1!1s0x60188d5ce7e1a5c7:0x61f3fb3f27dbf2ed!2m2!1d139.71!2d35.685!3e3' },
       { time: '12:30', name: '🍽️ Mittagessen · Harajuku / Omotesando', transit: null },
       { time: '14:15', name: '🔴 Pokémon Center · Shibuya Parco 6. OG', transit: 'JR Yamanote Line → Shibuya · ca. 10 Min. · ¥160', map: 'https://www.google.com/maps/dir/Shinjuku+Gyoen+National+Garden/Shibuya+Station,+Tokyo/@35.672,139.703,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188d5ce7e1a5c7:0x61f3fb3f27dbf2ed!2m2!1d139.71!2d35.685!1m5!1m1!1s0x60188b563b00109f:0x337328ef1fd051ec!2m2!1d139.7016!2d35.6580!3e3' },
       { time: '15:30', name: '🚦 Shibuya Scramble Crossing', transit: 'zu Fuß · 5 Min.', map: 'https://www.google.com/maps/dir/Pokemon+Center+Shibuya/Shibuya+Scramble+Crossing,+Tokyo/@35.659,139.701,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188b4f2ca3bcdf:0x4e5a2e4a66d3c1c7!2m2!1d139.6984!2d35.6612!1m5!1m1!1s0x60188b562a7a85b1:0x6f6a55e5f30c1a94!2m2!1d139.7005!2d35.6595!3e2' },
-      { time: '16:00', name: '🏙️ Shibuya Sky', transit: 'zu Fuß · 3 Min.', map: 'https://www.google.com/maps/dir/Shibuya+Scramble+Crossing/Shibuya+Sky,+Tokyo/@35.659,139.7,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188b562a7a85b1:0x6f6a55e5f30c1a94!2m2!1d139.7005!2d35.6595!1m5!1m1!1s0x60188b555f4b3e15:0xba12a9cf11d9a5e8!2m2!1d139.7019!2d35.6586!3e2' },
-      { time: '19:30', name: 'Rückfahrt nach Shinjuku', transit: 'JR Yamanote Line · 6 Min. · ¥160', map: 'https://www.google.com/maps/dir/Shibuya+Station/Shinjuku+Station,+Tokyo/@35.672,139.703,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188b563b00109f:0x337328ef1fd051ec!2m2!1d139.7016!2d35.6580!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
+      { time: '17:40', name: '🏙️ Shibuya Sky ✅', transit: 'zu Fuß · 3 Min.', map: 'https://www.google.com/maps/dir/Shibuya+Scramble+Crossing/Shibuya+Sky,+Tokyo/@35.659,139.7,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188b562a7a85b1:0x6f6a55e5f30c1a94!2m2!1d139.7005!2d35.6595!1m5!1m1!1s0x60188b555f4b3e15:0xba12a9cf11d9a5e8!2m2!1d139.7019!2d35.6586!3e2' },
+      { time: '19:00', name: 'Rückfahrt nach Shinjuku', transit: 'JR Yamanote Line · 6 Min. · ¥160', map: 'https://www.google.com/maps/dir/Shibuya+Station/Shinjuku+Station,+Tokyo/@35.672,139.703,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188b563b00109f:0x337328ef1fd051ec!2m2!1d139.7016!2d35.6580!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
     ],
     attractions: [
       { icon: '⛩️', name: 'Meiji-Schrein', hours: 'Sonnenaufgang – Sonnenuntergang', tags: [{l:'Kostenlos',t:'free'},{l:'1–1,5 Std.',t:''}], map: 'https://maps.google.com/?q=Meiji+Shrine+Tokyo', desc: 'Tokios bedeutendster Shinto-Schrein, mitten in einem dichten Stadtwald. Der Weg durch die großen Torii-Tore ist ruhig und meditativ.' },
       { icon: '🌳', name: 'Shinjuku Gyoen', hours: '9:00–18:00 · Mo geschlossen', tags: [{l:'¥500',t:'paid'}], map: 'https://maps.google.com/?q=Shinjuku+Gyoen+National+Garden+Tokyo', desc: 'Einer der schönsten Parks Japans — japanischer, englischer und französischer Garten in einem. Im Mai blühen Rosen und Azaleen.' },
       { icon: '🔴', name: 'Pokémon Center · Shibuya Parco', hours: '11:00–21:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Pokemon+Center+Shibuya+Parco+Tokyo', desc: '6. OG im Parco-Kaufhaus. Shibuya-exklusive Artikel — nur hier erhältlich. Direkt daneben das Pokémon Café, walk-in manchmal möglich.' },
       { icon: '🚦', name: 'Shibuya Scramble Crossing', hours: '24h', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Shibuya+Scramble+Crossing+Tokyo', desc: 'Die berühmteste Kreuzung der Welt. Bester Blick: Starbucks im Tsutaya-Gebäude, 2. OG. Danach selbst durchlaufen.' },
-      { icon: '🏙️', name: 'Shibuya Sky', hours: '10:00–22:30', tags: [{l:'~¥2.000',t:'paid'}], map: 'https://maps.google.com/?q=Shibuya+Sky+Tokyo', desc: '360°-Aussicht vom 46. OG des Scramble Square. Outdoor-Plattform ohne Glas — bei klarem Wetter Fuji sichtbar.' },
+      { icon: '🏙️', name: 'Shibuya Sky', hours: 'Einlass 17:40–17:59 Uhr', tags: [{l:'Ticket vorhanden',t:'ticket'}], map: 'https://maps.google.com/?q=Shibuya+Sky+Tokyo', desc: '360°-Aussicht vom 46. OG des Scramble Square. Outdoor-Plattform ohne Glas — bei klarem Wetter Fuji sichtbar.' },
     ],
     hints: [
-      { icon: '⚠️', text: '<strong>Shibuya Sky vorab buchen</strong> — Sunset-Slots sind Wochen im Voraus ausgebucht. sunset.shibuya-scramble-square.com' },
     ],
     alts: [
       { icon: '🌧️', label: 'Bei Regen', text: 'Shibuya Hikarie oder Shibuya Scramble Square — riesige Einkaufszentren direkt am Bahnhof, stundenlang trocken.' },
@@ -1161,29 +1155,26 @@ const days = [
     ]
   },
   {
-    num: 4, date: '2026-05-28', title: 'Asakusa, Skytree & Akihabara',
+    num: 4, date: '2026-05-28', title: 'Asakusa, Skytree & Kaiserpalast',
     city: 'tokyo', cityLabel: 'Tokio',
     timeline: [
-      { time: '09:00', name: 'Abfahrt nach Asakusa', transit: 'Toei Oedo Line · ca. 30 Min. · ¥290', map: 'https://www.google.com/maps/dir/Shinjuku+Station/Asakusa+Station,+Tokyo/@35.703,139.75,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!1m5!1m1!1s0x60188ec25e5b3c61:0x5813b43abe34f34f!2m2!1d139.7966!2d35.7118!3e3' },
-      { time: '09:30', name: '⛩️ Senso-ji Tempel', transit: null },
-      { time: '10:15', name: '🛍️ Nakamise-Einkaufsstraße', transit: null },
-      { time: '10:45', name: '🍳 Kappabashi Dori', transit: 'zu Fuß · 10 Min.', map: 'https://maps.google.com/?q=Kappabashi+Dori+Tokyo' },
-      { time: '11:30', name: '🗼 Tokyo Skytree', transit: 'zu Fuß · 15 Min.', map: 'https://www.google.com/maps/dir/Senso-ji+Temple/Tokyo+Skytree/@35.712,139.8,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188ec46773d737:0x553d22ba70a93a72!2m2!1d139.7967!2d35.7148!1m5!1m1!1s0x60188ed3641c6983:0x63f84d82c4ddfedf!2m2!1d139.8107!2d35.7101!3e2' },
-      { time: '13:30', name: '🐠 Sumida Aquarium · Solamachi', transit: null, map: 'https://maps.google.com/?q=Sumida+Aquarium+Tokyo+Skytree' },
-      { time: '14:30', name: 'Abfahrt nach Akihabara', transit: 'JR Sobu Line ab Asakusabashi · ca. 10 Min. · ¥160', map: 'https://www.google.com/maps/dir/Tokyo+Skytree/Akihabara+Station,+Tokyo/@35.704,139.79,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188ed3641c6983:0x63f84d82c4ddfedf!2m2!1d139.8107!2d35.7101!1m5!1m1!1s0x60188e9b0f2f6c35:0x96af4b33d6af4e02!2m2!1d139.7731!2d35.6984!3e3' },
-      { time: '14:15', name: '🎮 Akihabara', transit: null },
-      { time: '19:00', name: 'Rückfahrt nach Shinjuku', transit: 'Toei Shinjuku Line · ca. 25 Min. · ¥220', map: 'https://www.google.com/maps/dir/Akihabara+Station/Shinjuku+Station,+Tokyo/@35.694,139.737,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188e9b0f2f6c35:0x96af4b33d6af4e02!2m2!1d139.7731!2d35.6984!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
+      { time: '07:00', name: 'Abfahrt nach Asakusa', transit: 'Toei Oedo Line · ca. 30 Min. · ¥290', map: 'https://www.google.com/maps/dir/Shinjuku+Station/Asakusa+Station,+Tokyo/@35.703,139.75,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!1m5!1m1!1s0x60188ec25e5b3c61:0x5813b43abe34f34f!2m2!1d139.7966!2d35.7118!3e3' },
+      { time: '07:30', name: '⛩️ Senso-ji Tempel', transit: null },
+      { time: '08:15', name: '🛍️ Nakamise & Kappabashi Dori', transit: 'zu Fuß · direkt am Tempel', map: 'https://maps.google.com/?q=Kappabashi+Dori+Tokyo' },
+      { time: '09:15', name: '🍽️ Frühstück · Asakusa', transit: null },
+      { time: '10:00', name: '🗼 Tokyo Skytree', transit: 'zu Fuß · 10 Min.', map: 'https://www.google.com/maps/dir/Kappabashi+Dori+Tokyo/Tokyo+Skytree/@35.712,139.8,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188ed1c2a35f43:0x4a3b7f7a8a8b8b8b!2m2!1d139.793!2d35.7105!1m5!1m1!1s0x60188ed3641c6983:0x63f84d82c4ddfedf!2m2!1d139.8107!2d35.7101!3e2' },
+      { time: '11:30', name: 'Abfahrt zum Kaiserpalast', transit: 'Toei Asakusa Line bis Ningyocho + Hibiya Line bis Hibiya · ca. 30 Min. · ¥310', map: 'https://www.google.com/maps/dir/Tokyo+Skytree/Imperial+Palace+East+Garden,+Tokyo/@35.693,139.762,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188ed3641c6983:0x63f84d82c4ddfedf!2m2!1d139.8107!2d35.7101!1m5!1m1!1s0x60188c1c8b7f2e4b:0x4cae21060ece5bbb!2m2!1d139.753!2d35.6863!3e3' },
+      { time: '12:00', name: '🏯 Kaiserpalast Ostgarten', transit: null },
+      { time: '13:30', name: '🍽️ Mittagessen · Ginza / Kaiserpalast-Bereich', transit: null },
+      { time: '15:30', name: 'Rückfahrt nach Shinjuku', transit: 'U-Bahn ab Hibiya · ca. 25 Min. · ¥280', map: 'https://www.google.com/maps/dir/Imperial+Palace+East+Garden/Shinjuku+Station,+Tokyo/@35.683,139.727,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188c1c8b7f2e4b:0x4cae21060ece5bbb!2m2!1d139.753!2d35.6863!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
     ],
     attractions: [
+      { icon: '🏯', name: 'Kaiserpalast Ostgarten', hours: '9:00–16:30 · Mo & Do offen', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Imperial+Palace+East+Garden+Tokyo', desc: 'Öffentlich zugänglicher Gartenteil des Kaiserpalastes — japanischer Garten mit historischen Mauerresten und Türmen. Nijubashi-Brücke von außen kostenlos.' },
       { icon: '⛩️', name: 'Senso-ji Tempel', hours: '24h · Haupthalle 6:00–17:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Senso-ji+Temple+Asakusa+Tokyo', desc: 'Tokios ältester Tempel (628 n.Chr.). Das rote Kaminarimon-Tor gehört zu den ikonischsten Motiven Japans. Omikuji-Glückszettel ziehen: ¥100.' },
-      { icon: '🛍️', name: 'Nakamise-Einkaufsstraße', hours: 'ca. 10:00–18:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Nakamise+Shopping+Street+Asakusa+Tokyo', desc: 'Traditionelle Einkaufsgasse direkt am Tempel — Ningyoyaki, Kimono-Accessoires, Souvenirs und Straßensnacks.' },
+      { icon: '🛍️', name: 'Nakamise & Kappabashi Dori', hours: 'ca. 10:00–18:00 · ca. 1 Std.', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Nakamise+Shopping+Street+Asakusa+Tokyo', desc: 'Nakamise — traditionelle Einkaufsgasse am Tempel mit Souvenirs und Straßensnacks. Danach Kappabashi Dori, die Küchengerätestraße mit den berühmten Plastik-Speisemodellen.' },
       { icon: '🗼', name: 'Tokyo Skytree', hours: '10:00–21:00', tags: [{l:'ab ¥2.100',t:'paid'}], map: 'https://maps.google.com/?q=Tokyo+Skytree', desc: '634m — das höchste Bauwerk Japans. Tembo Deck (350m) ca. ¥2.100, Tembo Galleria (450m) ca. ¥3.000. Bei klarem Wetter Fuji sichtbar.' },
-      { icon: '🐠', name: 'Sumida Aquarium', hours: '9:00–21:00', tags: [{l:'¥2.300',t:'paid'}], map: 'https://maps.google.com/?q=Sumida+Aquarium+Tokyo+Skytree', desc: 'Modernes Aquarium im Solamachi-Einkaufszentrum direkt unter dem Skytree — Quallen, Pinguine und ein riesiges Freiwassertank.' },
-      { icon: '🎮', name: 'Akihabara', hours: 'Shops ca. 11:00–20:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Akihabara+Electric+Town+Tokyo', desc: 'Anime, Manga, Retro-Games und Pokémon-Merchandise. Empfehlenswert: Yodobashi Camera, Super Potato, Animate. Obere Stockwerke erkunden!' },
     ],
     hints: [
-      { icon: '💡', text: '<strong>Tokyo Skytree</strong> online vorbuchen spart Wartezeit — tokyo-skytree.jp' },
-      { icon: '🪙', text: 'In Akihabara Kleingeld für Gacha-Automaten einplanen.' },
     ],
     alts: [
       { icon: '🌧️', label: 'Bei Regen', text: 'Tokyo National Museum in Ueno — direkt bei Asakusa, eines der größten Museen Japans mit japanischer Kunst und Geschichte.' },
@@ -1200,31 +1191,28 @@ const days = [
     ]
   },
   {
-    num: 5, date: '2026-05-29', title: 'TeamLab, Toyosu, Kaiserpalast & Ginza',
+    num: 5, date: '2026-05-29', title: 'TeamLab, Tsukiji & Akihabara',
     city: 'tokyo', cityLabel: 'Tokio',
     timeline: [
       { time: '08:30', name: 'Abfahrt zu TeamLab', transit: 'Toei Oedo bis Tsukijishijo + Yurikamome bis Shijo-mae · ca. 45 Min. · ¥590', map: 'https://www.google.com/maps/dir/Shinjuku+Station/teamLab+Planets+TOKYO,+Tokyo/@35.652,139.778,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!1m5!1m1!1s0x60188980d5de0a9b:0x8cf2d70cc4f3cead!2m2!1d139.7897!2d35.6491!3e3' },
       { time: '09:00', name: '🌈 TeamLab Planets ✅', transit: null },
-      { time: '11:00', name: '🐟 Toyosu Fischmarkt · Mittagessen', transit: 'zu Fuß · ca. 10 Min.', map: 'https://www.google.com/maps/dir/teamLab+Planets+TOKYO/Toyosu+Market,+Tokyo/@35.645,139.786,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188980d5de0a9b:0x8cf2d70cc4f3cead!2m2!1d139.7897!2d35.6491!1m5!1m1!1s0x60188982440f26b5:0x83619b3e18e9c20b!2m2!1d139.7843!2d35.644!3e2' },
-      { time: '13:00', name: 'Abfahrt zum Kaiserpalast', transit: 'Yurikamome bis Shimbashi + Toei Mita Line bis Hibiya + zu Fuß · ca. 40 Min. · ¥470', map: 'https://www.google.com/maps/dir/Toyosu+Market/Imperial+Palace+East+Garden,+Tokyo/@35.662,139.754,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188982440f26b5:0x83619b3e18e9c20b!2m2!1d139.7843!2d35.644!1m5!1m1!1s0x60188c1c8b7f2e4b:0x4cae21060ece5bbb!2m2!1d139.753!2d35.6863!3e3' },
-      { time: '13:45', name: '🏯 Kaiserpalast Ostgarten', transit: null },
-      { time: '15:00', name: '🛍️ Ginza · Itoya', transit: 'U-Bahn ab Hibiya · ca. 10 Min. · ¥200', map: 'https://www.google.com/maps/dir/Imperial+Palace+East+Garden/Ginza,+Tokyo/@35.676,139.758,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188c1c8b7f2e4b:0x4cae21060ece5bbb!2m2!1d139.753!2d35.6863!1m5!1m1!1s0x60188be80f519c65:0x9a2a9f2c77d6f0c4!2m2!1d139.7649!2d35.6717!3e3' },
-      { time: '17:00', name: 'Rückfahrt nach Shinjuku', transit: 'Marunouchi Line · ca. 15 Min. · ¥200', map: 'https://www.google.com/maps/dir/Ginza+Station/Shinjuku+Station,+Tokyo/@35.679,139.732,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188be80f519c65:0x9a2a9f2c77d6f0c4!2m2!1d139.7649!2d35.6717!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
+      { time: '11:00', name: '(Optional) 🌉 Odaiba Seaside Park & Rainbow Bridge', transit: 'Yurikamome ab Shijo-mae → Daiba · ca. 10 Min. · ¥260', map: 'https://www.google.com/maps/dir/teamLab+Planets+TOKYO/Odaiba+Seaside+Park,+Tokyo/@35.637,139.779,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188980d5de0a9b:0x8cf2d70cc4f3cead!2m2!1d139.7897!2d35.6491!1m5!1m1!1s0x601889e5f74c9b3f:0x4a3b7f7a8a8b8b8b!2m2!1d139.7749!2d35.629!3e3' },
+      { time: '12:30', name: '🐟 Tsukiji Outer Market · Mittagessen', transit: 'Yurikamome bis Shimbashi + Toei Oedo bis Tsukijishijo · ca. 30 Min. · ¥420', map: 'https://www.google.com/maps/dir/teamLab+Planets+TOKYO/Tsukiji+Outer+Market,+Tokyo/@35.655,139.771,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188980d5de0a9b:0x8cf2d70cc4f3cead!2m2!1d139.7897!2d35.6491!1m5!1m1!1s0x60188978efc2b587:0x7fab3b5a14c53d45!2m2!1d139.7706!2d35.6654!3e3' },
+      { time: '14:30', name: 'Abfahrt nach Akihabara', transit: 'Hibiya Line · ca. 15 Min. · ¥200', map: 'https://www.google.com/maps/dir/Tsukiji+Outer+Market/Akihabara+Station,+Tokyo/@35.679,139.762,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188978efc2b587:0x7fab3b5a14c53d45!2m2!1d139.7706!2d35.6654!1m5!1m1!1s0x60188e9b0f2f6c35:0x96af4b33d6af4e02!2m2!1d139.7731!2d35.6984!3e3' },
+      { time: '14:45', name: '🎮 Akihabara', transit: null },
+      { time: '19:00', name: 'Rückfahrt nach Shinjuku', transit: 'Rinkai Line + JR Yamanote · ca. 45 Min. · ¥520', map: 'https://www.google.com/maps/dir/Odaiba+Seaside+Park/Shinjuku+Station,+Tokyo/@35.668,139.745,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x601889e5f74c9b3f:0x4a3b7f7a8a8b8b8b!2m2!1d139.7749!2d35.629!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
     ],
     attractions: [
       { icon: '🌈', name: 'TeamLab Planets Tokyo', hours: 'Einlass 09:00 Uhr', tags: [{l:'Ticket vorhanden',t:'ticket'}], map: 'https://maps.google.com/?q=teamLab+Planets+TOKYO', desc: 'Immersives Barefoot-Erlebnis mit riesigen Wasser-, Licht- und Spiegelinstallationen. Ca. 1,5–2 Std. Keine Taschen — Schließfächer kostenlos.' },
-      { icon: '🐟', name: 'Toyosu Fischmarkt', hours: '5:00–15:00 · Mi & So geschlossen', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Toyosu+Market+Tokyo', desc: 'Nur 10 Min. zu Fuß von TeamLab. Restaurants im 3. OG — Tuna-Don und frisches Sushi direkt im Markt.' },
-      { icon: '🏯', name: 'Kaiserpalast Ostgarten', hours: '9:00–16:30 · Mo & Fr geschlossen', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Imperial+Palace+East+Garden+Tokyo', desc: 'Öffentlich zugänglicher Gartenteil des Kaiserpalastes — japanischer Garten mit historischen Mauerresten und Türmen.' },
-      { icon: '🛍️', name: 'Ginza · Itoya', hours: 'Shops ca. 11:00–20:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Itoya+Ginza+Tokyo', desc: 'Tokios exklusivste Einkaufsmeile. Itoya — das weltbeste Schreibwarengeschäft über 12 Stockwerke.' },
+      { icon: '🐟', name: 'Tsukiji Outer Market', hours: 'ca. 5:00–14:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Tsukiji+Outer+Market+Tokyo', desc: 'Der historische Außenmarkt — frisches Sushi direkt an der Theke, Tamagoyaki, Meeresfrüchte-Spieße. Bestes Mittag-Sushi der Stadt.' },
+      { icon: '🎮', name: 'Akihabara', hours: 'Shops ca. 11:00–20:00', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Akihabara+Electric+Town+Tokyo', desc: 'Anime, Manga, Retro-Games und Pokémon-Merchandise. Empfehlenswert: Yodobashi Camera, Super Potato, Animate. Obere Stockwerke erkunden!' },
+      { icon: '🌉', name: '(Optional) Odaiba Seaside Park', hours: '24h · Kostenlos', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Odaiba+Seaside+Park+Tokyo', desc: 'Spaziergang entlang der Bucht mit Blick auf die Rainbow Bridge und Tokio-Skyline. Falls nach Akihabara noch Zeit und Energie übrig ist.' },
     ],
     hints: [
       { icon: '⚠️', text: '<strong>Shorts oder Rock für TeamLab mitbringen</strong> — Wasserinstallationen, Hosen werden nass.' },
-      { icon: '🏯', text: 'Kaiserpalast Ostgarten ist <strong>montags und freitags geschlossen</strong> — wir sind freitags dort! Als Alternative: Kaiserpalast-Außengelände und Nijubashi-Brücke sind immer zugänglich, oder direkt weiter zu Hamarikyu.' },
     ],
     alts: [
-      { icon: '🌧️', label: 'Bei Regen', text: 'Ginza Six und Itoya sind komplett indoor — perfekter Regentag.' },
-      { icon: '➕', label: 'Mehr Zeit', text: 'Odaiba Seaside Park & Rainbow Bridge — falls nach Toyosu noch Zeit ist, 10 Min. mit der Yurikamome.' },
-      { icon: '➕', label: 'Mehr Zeit', text: 'Tsukiji Outer Market für einen Snack — nur 10 Min. zu Fuß von Hamarikyu.' },
+      { icon: '🌧️', label: 'Bei Regen', text: 'Ginza & Itoya — Tokios exklusivste Einkaufsmeile mit dem weltbesten Schreibwarengeschäft über 12 Stockwerke. Komplett indoor, perfekt bei Regen.' },
     ],
     photos: [
       { spot: 'TeamLab Planets · Spiegelräume', light: 'Innen', note: 'Langzeitbelichtung empfohlen · kein Blitz erlaubt' },
@@ -1239,7 +1227,6 @@ const days = [
       { time: '07:00', name: 'Abfahrt Shinjuku Bus Terminal', transit: 'Keio Highway Bus oder Fujikyu Bus → Fujikawaguchiko · ca. 2 Std. · ~¥2.000', map: 'https://www.google.com/maps/dir/Shinjuku+Station/Fujikawaguchiko,+Yamanashi/@35.4,138.7,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!1m5!1m1!1s0x601c6bb14b23c939:0x4a3b7f7a8a8b8b8b!2m2!1d138.7523!2d35.5014!3e3' },
       { time: '09:00', name: '🗻 Ankunft Fujikawaguchiko', transit: null },
       { time: '09:30', name: '🗻 Kawaguchiko Seepromenade', transit: null },
-      { time: '11:00', name: '🚡 Kachi Kachi Ropeway', transit: null },
       { time: '12:30', name: '🍽️ Mittagessen · Kawaguchiko-Bereich', transit: null },
       { time: '14:00', name: '🗻 Fuji Five Lakes erkunden', transit: null },
       { time: '16:00', name: 'Rückfahrt nach Shinjuku', transit: 'Bus zurück · ca. 2 Std. · ~¥2.000', map: 'https://www.google.com/maps/dir/Fujikawaguchiko/Shinjuku+Station,+Tokyo/@35.4,138.7,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x601c6bb14b23c939:0x4a3b7f7a8a8b8b8b!2m2!1d138.7523!2d35.5014!1m5!1m1!1s0x60188cd0d6597665:0x53168c3a5f41f637!2m2!1d139.7006!2d35.6896!3e3' },
@@ -1247,18 +1234,14 @@ const days = [
     ],
     attractions: [
       { icon: '🗻', name: 'Kawaguchiko · Fuji-Aussicht', hours: '24h · Kostenlos', tags: [{l:'Kostenlos',t:'free'}], map: 'https://maps.google.com/?q=Lake+Kawaguchiko+Yamanashi', desc: 'Einer der schönsten Aussichtspunkte auf den Fuji — der See spiegelt den Berg bei Windstille perfekt. Beste Sicht morgens.' },
-      { icon: '🚡', name: 'Kachi Kachi Ropeway', hours: '9:00–17:20', tags: [{l:'~¥900',t:'paid'}], map: 'https://maps.google.com/?q=Kachi+Kachi+Ropeway+Kawaguchiko', desc: 'Kleine Seilbahn auf den Tenjo-Berg — Panoramablick auf Fuji und Kawaguchiko. Eintritt ca. ¥900.' },
       { icon: '🚲', name: 'Fuji Five Lakes · Fahrrad leihen', hours: 'Verleihe ab ca. 8:00', tags: [{l:'~¥500/Std.',t:'paid'}], map: 'https://maps.google.com/?q=Lake+Kawaguchiko', desc: 'Fahrrad leihen und um den Kawaguchiko radeln — ca. 20 km, herrliche Ausblicke auf den Fuji.' },
     ],
     hints: [
-      { icon: '🗻', text: '<strong>Vor dem Ausflug prüfen:</strong> isfujivisible.com — zeigt live ob der Fuji sichtbar ist. Bei schlechter Sicht lieber tauschen.' },
+      { icon: '🗻', text: '<strong>Vor dem Ausflug prüfen:</strong> <a href="https://isfujivisible.com" target="_blank" style="color:var(--blue);">isfujivisible.com ↗</a> — zeigt live ob der Fuji sichtbar ist. Bei schlechter Sicht lieber tauschen.' },
       { icon: '🎟️', text: 'Bus-Tickets am besten online vorbuchen — Keio Bus oder Fujikyu. In der Hauptsaison oft ausgebucht.' },
-      { icon: '👟', text: 'Bequeme Schuhe — viel Laufen und ggf. Ropeway-Wanderung.' },
     ],
     alts: [
-      { icon: '🌧️', label: 'Bei Regen / Wolken', text: 'Bei schlechtem Wetter lohnt Kawaguchiko nicht — dann Plan B: Kaiserpalast, Hamarikyu und Ginza (ursprünglicher Tag 6).' },
-      { icon: '➕', label: 'Mehr Zeit', text: 'Oshino Hakkai — acht kristallklare Quellen mit Fuji-Blick, ca. 20 Min. vom Kawaguchiko mit dem Bus.' },
-      { icon: '➕', label: 'Mehr Zeit', text: 'Chureito Pagode — ikonische Pagode mit Fuji im Hintergrund, kurze Wanderung mit Stufen (ca. 400).' },
+            { icon: '➕', label: 'Mehr Zeit', text: 'Chureito Pagode — ikonische Pagode mit Fuji im Hintergrund, kurze Wanderung mit Stufen (ca. 400).' },
     ],
     photos: [
       { spot: 'Kawaguchiko · Fuji-Spiegelung im See', light: 'Morgen', note: 'Fuji spiegelt sich bei Windstille im See — morgens beste Chancen, vor dem Wind' },
@@ -1430,6 +1413,44 @@ function getDaysUntil() {
   return diff;
 }
 
+const WMO_CODES = {
+  0:{icon:'☀️',desc:'Klar und sonnig'},1:{icon:'🌤️',desc:'Überwiegend klar'},
+  2:{icon:'⛅',desc:'Teilweise bewölkt'},3:{icon:'☁️',desc:'Bedeckt'},
+  45:{icon:'🌫️',desc:'Neblig'},51:{icon:'🌦️',desc:'Nieselregen'},
+  61:{icon:'🌧️',desc:'Leichter Regen'},63:{icon:'🌧️',desc:'Regen'},
+  65:{icon:'🌧️',desc:'Starker Regen'},80:{icon:'🌦️',desc:'Schauer'},
+  81:{icon:'🌧️',desc:'Schauer'},95:{icon:'⛈️',desc:'Gewitter'},
+};
+const WEATHER_COORDS = {
+  tokyo:{lat:35.6762,lon:139.6503,name:'Tokio'},
+  kyoto:{lat:35.0116,lon:135.7681,name:'Kyoto'},
+  osaka:{lat:34.6937,lon:135.5023,name:'Osaka'},
+};
+
+async function loadWeather() {
+  const widget = document.getElementById('weather-widget');
+  if (!widget) return;
+  const todayIdx = getDayIndex();
+  let city = 'tokyo';
+  if (todayIdx >= 0) city = days[todayIdx].city === 'osaka' ? 'kyoto' : days[todayIdx].city;
+  const coords = WEATHER_COORDS[city] || WEATHER_COORDS.tokyo;
+  widget.innerHTML = `<div class="weather-widget"><div class="weather-icon">🌡️</div><div class="weather-main"><div class="weather-city">${coords.name}</div><div class="weather-loading">Wetter wird geladen…</div></div></div>`;
+  try {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}&current=temperature_2m,weathercode,precipitation_probability&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+    const res = await fetch(url);
+    const data = await res.json();
+    const temp = Math.round(data.current.temperature_2m);
+    const code = data.current.weathercode;
+    const rain = data.current.precipitation_probability ?? data.daily.precipitation_probability_max[0];
+    const max = Math.round(data.daily.temperature_2m_max[0]);
+    const min = Math.round(data.daily.temperature_2m_min[0]);
+    const w = WMO_CODES[code] || WMO_CODES[Math.floor(code/10)*10] || {icon:'🌡️',desc:'Unbekannt'};
+    widget.innerHTML = `<div class="weather-widget"><div class="weather-icon">${w.icon}</div><div class="weather-main"><div class="weather-city">${coords.name}</div><div class="weather-temp">${temp}°C</div><div class="weather-desc">${w.desc}</div></div><div class="weather-detail"><div class="weather-minmax">↑ ${max}°  ↓ ${min}°</div><div class="weather-rain">💧 ${rain}% Regen</div></div></div>`;
+  } catch(e) {
+    widget.innerHTML = `<div class="weather-widget"><div class="weather-icon">🌡️</div><div class="weather-main"><div class="weather-city">${coords.name}</div><div class="weather-loading">Wetter nicht verfügbar</div></div></div>`;
+  }
+}
+
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
@@ -1444,7 +1465,6 @@ function openDay(idx) {
   let html = '';
 
   // Map placeholder
-  html += `<div class="map-placeholder"><div class="map-placeholder-icon">🗺️</div><div class="map-placeholder-text">Karte Tag ${day.num} — Platzhalter</div></div>`;
 
   // Timeline
   html += `<div class="card"><div class="card-title">Tagesplan</div>`;
@@ -1545,107 +1565,8 @@ function openDay(idx) {
     html += `</div>`;
   }
 
-  // Photos
-  if (day.photos && day.photos.length > 0) {
-    html += `<div class="card"><div class="card-title">📷 Fotospots</div>`;
-    day.photos.forEach(p => {
-      html += `<div class="hint-item">
-        <div class="hint-icon">📍</div>
-        <div class="hint-text"><strong>${p.spot}</strong> · <span style="color:var(--gold)">${p.light}</span><br>${p.note}</div>
-      </div>`;
-    });
-    html += `</div>`;
-  }
-
   document.getElementById('detail-body').innerHTML = html;
   showScreen('detail');
-}
-
-// ── WEATHER ──
-const WEATHER_COORDS = {
-  tokyo: { lat: 35.6762, lon: 139.6503, name: 'Tokio' },
-  kyoto: { lat: 35.0116, lon: 135.7681, name: 'Kyoto' },
-  osaka: { lat: 34.6937, lon: 135.5023, name: 'Osaka' },
-};
-
-const WMO_CODES = {
-  0:  { icon: '☀️',  desc: 'Klar und sonnig' },
-  1:  { icon: '🌤️', desc: 'Überwiegend klar' },
-  2:  { icon: '⛅',  desc: 'Teilweise bewölkt' },
-  3:  { icon: '☁️',  desc: 'Bedeckt' },
-  45: { icon: '🌫️', desc: 'Neblig' },
-  48: { icon: '🌫️', desc: 'Gefrierender Nebel' },
-  51: { icon: '🌦️', desc: 'Leichter Nieselregen' },
-  53: { icon: '🌦️', desc: 'Nieselregen' },
-  55: { icon: '🌧️', desc: 'Starker Nieselregen' },
-  61: { icon: '🌧️', desc: 'Leichter Regen' },
-  63: { icon: '🌧️', desc: 'Regen' },
-  65: { icon: '🌧️', desc: 'Starker Regen' },
-  71: { icon: '🌨️', desc: 'Leichter Schneefall' },
-  73: { icon: '🌨️', desc: 'Schneefall' },
-  80: { icon: '🌦️', desc: 'Leichte Schauer' },
-  81: { icon: '🌧️', desc: 'Schauer' },
-  82: { icon: '⛈️',  desc: 'Starke Schauer' },
-  95: { icon: '⛈️',  desc: 'Gewitter' },
-  99: { icon: '⛈️',  desc: 'Schweres Gewitter' },
-};
-
-async function loadWeather() {
-  const widget = document.getElementById('weather-widget');
-  const todayIdx = getDayIndex();
-
-  // Determine which city to show weather for
-  let city = 'tokyo';
-  if (todayIdx >= 0) {
-    city = days[todayIdx].city === 'osaka' ? 'kyoto' : days[todayIdx].city;
-  }
-  const coords = WEATHER_COORDS[city];
-
-  // Show loading state
-  widget.innerHTML = `
-    <div class="weather-widget">
-      <div class="weather-icon">🌡️</div>
-      <div class="weather-main">
-        <div class="weather-city">${coords.name}</div>
-        <div class="weather-loading">Wetter wird geladen…</div>
-      </div>
-    </div>`;
-
-  try {
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}&current=temperature_2m,weathercode,precipitation_probability&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
-    const res = await fetch(url);
-    const data = await res.json();
-
-    const temp = Math.round(data.current.temperature_2m);
-    const code = data.current.weathercode;
-    const rain = data.current.precipitation_probability ?? data.daily.precipitation_probability_max[0];
-    const max = Math.round(data.daily.temperature_2m_max[0]);
-    const min = Math.round(data.daily.temperature_2m_min[0]);
-    const weather = WMO_CODES[code] || WMO_CODES[Math.floor(code / 10) * 10] || { icon: '🌡️', desc: 'Unbekannt' };
-
-    widget.innerHTML = `
-      <div class="weather-widget">
-        <div class="weather-icon">${weather.icon}</div>
-        <div class="weather-main">
-          <div class="weather-city">${coords.name}</div>
-          <div class="weather-temp">${temp}°C</div>
-          <div class="weather-desc">${weather.desc}</div>
-        </div>
-        <div class="weather-detail">
-          <div class="weather-minmax">↑ ${max}°  ↓ ${min}°</div>
-          <div class="weather-rain">💧 ${rain}% Regen</div>
-        </div>
-      </div>`;
-  } catch (e) {
-    widget.innerHTML = `
-      <div class="weather-widget">
-        <div class="weather-icon">🌡️</div>
-        <div class="weather-main">
-          <div class="weather-city">${coords.name}</div>
-          <div class="weather-loading">Wetter nicht verfügbar — kein Internet</div>
-        </div>
-      </div>`;
-  }
 }
 
 // ── RENDER HOME ──
@@ -1735,43 +1656,17 @@ function renderHome() {
   }).join('');
 }
 
-renderHome();
-loadWeather();
-
-// ── RENDER PHOTOS SCREEN ──
-function renderPhotos() {
-  const body = document.getElementById('photos-body');
-  const cities = [
-    { key: 'tokyo', label: '🗼 Tokio', color: 'var(--blue)' },
-    { key: 'kyoto', label: '⛩️ Kyoto', color: '#1a7a34' },
-    { key: 'osaka', label: '🎢 Osaka', color: 'var(--gold)' },
-  ];
-
-  let html = '';
-  cities.forEach(city => {
-    const cityDays = days.filter(d => d.city === city.key && d.photos && d.photos.length > 0);
-    if (cityDays.length === 0) return;
-
-    html += `<div class="phrase-group-title" style="color:${city.color}">${city.label}</div>`;
-    html += `<div class="flight-section">`;
-    cityDays.forEach(day => {
-      day.photos.forEach(p => {
-        html += `<div class="flight-row">
-          <div class="flight-icon">📍</div>
-          <div class="flight-info">
-            <div class="flight-label">Tag ${day.num} · ${day.date.slice(8,10)}.${day.date.slice(5,7)}.</div>
-            <div class="flight-main">${p.spot}</div>
-            <div class="flight-sub" style="color:var(--gold);font-weight:500;">${p.light} · <span style="color:var(--ink2);font-weight:300;">${p.note}</span></div>
-          </div>
-        </div>`;
-      });
-    });
-    html += `</div>`;
-  });
-
-  body.innerHTML = html;
+try {
+  renderHome();
+  loadWeather();
+} catch(e) {
+  console.error('Init error:', e);
 }
-renderPhotos();
+
+window.onerror = function(msg, src, line, col, err) {
+  console.error('Runtime error:', msg, 'line:', line, err);
+  return true; // suppress the overlay
+};
 </script>
 </body>
 </html>
